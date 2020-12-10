@@ -115,8 +115,8 @@ you can retrieve value server-side with \code{input$<inputId>_button}.}
 
 \item{language}{Language to use, can be one of \code{'cs'}, \code{'da'},
 \code{'de'}, \code{'en'}, \code{'es'}, \code{'fi'}, \code{'fr'},
-\code{'hu'}, \code{'nl'}, \code{'pl'}, \code{'pt-BR'}, \\code{'pt'},
-\code{'ro'}, \code{'ru'}, \code{'sk'}, \code{'zh'}, \code{'ja'}.}
+\code{'hu'}, \code{'it'}, \code{'nl'}, \code{'pl'}, \code{'pt-BR'},
+\code{'pt'}, \code{'ro'}, \code{'ru'}, \code{'sk'}, \code{'zh'}, \code{'ja'}.}
 
 \item{inline}{If \code{TRUE}, datepicker will always be visible.}
 

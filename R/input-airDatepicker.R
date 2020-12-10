@@ -40,8 +40,8 @@
 #'  you can retrieve value server-side with \code{input$<inputId>_button}.
 #' @param language Language to use, can be one of \code{'cs'}, \code{'da'},
 #'  \code{'de'}, \code{'en'}, \code{'es'}, \code{'fi'}, \code{'fr'},
-#'  \code{'hu'}, \code{'nl'}, \code{'pl'}, \code{'pt-BR'}, \\code{'pt'},
-#'  \code{'ro'}, \code{'ru'}, \code{'sk'}, \code{'zh'}, \code{'ja'}.
+#'  \code{'hu'}, \code{'it'}, \code{'nl'}, \code{'pl'}, \code{'pt-BR'},
+#'  \code{'pt'}, \code{'ro'}, \code{'ru'}, \code{'sk'}, \code{'zh'}, \code{'ja'}.
 #' @param inline If \code{TRUE}, datepicker will always be visible.
 #' @param onlyTimepicker Display only the time picker.
 #' @param width The width of the input, e.g. \code{'400px'}, or \code{'100\%'}.
@@ -130,8 +130,8 @@ airDatepickerInput <- function(inputId,
   addon <- match.arg(addon)
   language <- match.arg(
     arg = language,
-    choices = c("cs", "da", "de", "en", "es", "fi", "fr", "hu", "nl", "pl",
-                "pt-BR", "pt", "ro", "ru", "sk", "tr", "zh", "ja"),
+    choices = c("cs", "da", "de", "en", "es", "fi", "fr", "it", "hu", "nl",
+                "pl", "pt-BR", "pt", "ro", "ru", "sk", "tr", "zh", "ja"),
     several.ok = FALSE
   )
 
