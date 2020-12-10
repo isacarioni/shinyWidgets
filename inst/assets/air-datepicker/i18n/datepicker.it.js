@@ -8,5 +8,5 @@
     clear: 'Cancella',
     dateFormat: 'dd/mm/yyyy',
     timeFormat: 'hh:ii aa',
-    firstDay: 0
+    firstDay: 1
 }; })(jQuery);
